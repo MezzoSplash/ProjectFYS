@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+	background-color: #DB1D07;
+}
+p {
+	color: white;
+	padding: 8px;
+}
+
+h1 {
+	color: white;
+	padding: 8px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+#login input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login button:hover {
+    opacity: 0.8;
+}
+
+
+#login img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#login .container {
+    padding: 16px;
+}
+
+#login span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+#login .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#login .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#login .close:hover,
+#login .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#login .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+#login @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+#login @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+#login @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+div.fixed {
+    position: fixed;
+    bottom: 1;
+    right: 0;
+	top: 0;
+    width: 300px;
+    
+}
+
